@@ -26,4 +26,5 @@ class RiwayatLaporanFragment : Fragment() {
             requireActivity().onBackPressedDispatcher.onBackPressed()
         }
     }
+
 }

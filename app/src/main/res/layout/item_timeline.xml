@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tvStatus" />
 
-    <!-- Timeline Line -->
+    <!-- Timeline Lne -->
     <View
         android:id="@+id/viewLine"
         android:layout_width="2dp"

@@ -23,5 +23,6 @@ class DetailLaporanFragment : Fragment() {
         toolbar.setNavigationOnClickListener {
             requireActivity().onBackPressedDispatcher.onBackPressed()
         }
+
     }
 }

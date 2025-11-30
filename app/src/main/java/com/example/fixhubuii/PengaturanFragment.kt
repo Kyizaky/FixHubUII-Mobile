@@ -30,6 +30,5 @@ class PengaturanFragment : Fragment() {
         btnLogOut.setOnClickListener {
             findNavController().navigate(R.id.action_pengaturanFragment_to_loginFragment)
         }
-
     }
 }

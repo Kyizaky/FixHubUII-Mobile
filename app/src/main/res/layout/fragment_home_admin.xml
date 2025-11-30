@@ -49,7 +49,7 @@
                         android:id="@+id/tvGreeting"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Selamat datang, Admin"
+                        android:text="Selamat datang, Ikky"
                         android:textColor="#E3F2FD"
                         android:textSize="14sp"
                         android:layout_marginTop="4dp" />
@@ -58,7 +58,7 @@
                         android:id="@+id/tvDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="27 November 2024"
+                        android:text="27 November 2025"
                         android:textColor="#E3F2FD"
                         android:textSize="12sp"
                         android:layout_marginTop="2dp" />
@@ -66,10 +66,10 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/ivNotification"
+                    android:id="@+id/ivSettings"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_notification"
+                    android:src="@drawable/ic_pengaturan"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:padding="8dp"
                     android:tint="#FFFFFF"
@@ -262,12 +262,12 @@
 
         </LinearLayout>
 
-        <!-- Quick Actions -->
+        <!-- Menu Utama -->
         <TextView
             android:id="@+id/tvQuickActions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aksi Cepat"
+            android:text="Menu Utama"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#333333"
@@ -287,7 +287,7 @@
 
             <!-- Verifikasi Laporan -->
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardVerifikasi"
+                android:id="@+id/cardStatistic"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -305,16 +305,16 @@
                     android:gravity="center"
                     android:padding="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="✅"
-                        android:textSize="32sp" />
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_statistic"
+                        app:tint="#333333" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Verifikasi"
+                        android:text="Statistik"
                         android:textSize="14sp"
                         android:textStyle="bold"
                         android:textColor="#333333"
@@ -327,7 +327,7 @@
 
             <!-- Assign Teknisi -->
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardAssign"
+                android:id="@+id/cardHistory"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:layout_weight="1"
@@ -345,11 +345,11 @@
                     android:gravity="center"
                     android:padding="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="👤"
-                        android:textSize="32sp" />
+                    <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_history"
+                    app:tint="#333333" />
 
                     <TextView
                         android:layout_width="wrap_content"

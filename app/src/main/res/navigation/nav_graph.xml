@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/detailLaporanAdminFragment">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -103,5 +103,33 @@
         <action
             android:id="@+id/action_homeAdminFragment_to_detailLaporanAdminFragment"
             app:destination="@id/detailLaporanAdminFragment" />
+        <action
+            android:id="@+id/action_homeAdminFragment_to_riwayatLaporanFragment"
+            app:destination="@id/riwayatLaporanFragment" />
+        <action
+            android:id="@+id/action_homeAdminFragment_to_statisticFragment"
+            app:destination="@id/statisticFragment" />
+        <action
+            android:id="@+id/action_homeAdminFragment_to_pengaturanAdminFragment"
+            app:destination="@id/pengaturanAdminFragment" />
+        <action
+            android:id="@+id/action_homeAdminFragment_self"
+            app:destination="@id/homeAdminFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/kelolaFragment"
+        android:name="com.example.fixhubuii.KelolaFragment"
+        android:label="KelolaFragment" />
+    <fragment
+        android:id="@+id/pengaturanAdminFragment"
+        android:name="com.example.fixhubuii.PengaturanAdminFragment"
+        android:label="PengaturanAdminFragment" >
+        <action
+            android:id="@+id/action_pengaturanAdminFragment_to_kelolaFragment"
+            app:destination="@id/kelolaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="com.example.fixhubuii.StatisticFragment"
+        android:label="StatisticFragment" />
 </navigation>

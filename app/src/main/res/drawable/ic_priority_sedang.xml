@@ -4,22 +4,18 @@
     android:viewportWidth="48"
     android:viewportHeight="48">
 
-    <!-- Outer soft glow -->
     <path
         android:fillColor="#AAFFE9B8"
         android:pathData="M24,4A20,20 0 1,0 44,24A20,20 0 0,0 24,4Z"/>
 
-    <!-- Mid glow -->
     <path
         android:fillColor="#CCFFD680"
         android:pathData="M24,8A16,16 0 1,0 40,24A16,16 0 0,0 24,8Z"/>
 
-    <!-- Triangle warning -->
     <path
         android:fillColor="#F4B400"
         android:pathData="M24,12l10,18h-20z"/>
 
-    <!-- Exclamation mark -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M23,18h2v8h-2zM23,28h2v2h-2z"/>

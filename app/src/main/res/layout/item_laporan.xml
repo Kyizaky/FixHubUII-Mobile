@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <!-- Icon Status -->
+        <!-- Icon Sttus -->
         <ImageView
             android:id="@+id/ivStatusIcon"
             android:layout_width="50dp"

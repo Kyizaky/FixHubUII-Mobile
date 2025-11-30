@@ -34,5 +34,6 @@ class HomeUserFragment : Fragment() {
         btnSettings.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_pengaturanFragment)
         }
+
     }
 }

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <!-- Header Section -->
+        <!-- Header Sectin -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardHeader"
             android:layout_width="match_parent"
